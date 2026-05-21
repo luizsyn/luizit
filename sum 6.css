@@ -1,0 +1,129 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#fff8f0;
+}
+
+header{
+background:orange;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+nav{
+background:#222;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+justify-content:center;
+}
+
+nav ul li{
+position:relative;
+}
+
+nav ul li a{
+display:block;
+padding:15px 20px;
+color:white;
+text-decoration:none;
+}
+
+nav ul li:hover{
+background:orange;
+}
+
+nav ul li ul{
+display:none;
+position:absolute;
+top:50px;
+left:0;
+background:#333;
+min-width:180px;
+}
+
+nav ul li:hover ul{
+display:block;
+}
+
+.register{
+text-align:center;
+margin:20px;
+}
+
+.register a{
+background:green;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:5px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:180px;
+border-radius:10px;
+}
+
+.price{
+color:red;
+font-size:20px;
+margin:10px;
+}
+
+button{
+background:orange;
+color:white;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+border-radius:5px;
+}
+
+.home{
+text-align:center;
+padding:40px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+position:fixed;
+bottom:0;
+width:100%;
+}
+
+header{
+background-image:url("header2.png");
+background-size:cover;
+background-position:center;
+padding:167px;
+text-align:center;
+color:white;
+}
